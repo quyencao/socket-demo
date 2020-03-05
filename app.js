@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
   res.sendFile('index.html');
 });
 
-const server = http.Server(app);
+const server = http.createServer(app);
 const io = socketio(server);
 
 io.on('connection', function (socket) {
