@@ -59,7 +59,7 @@ const getRandomMessage = () => {
     return {
         id: uuid.v4(),
         text,
-        from: 'chatbot',
+        from: 'server',
         date: new Date()
     }
 };
