@@ -15,7 +15,7 @@
     "dotenv-extended": "^2.7.1",
     "express": "^4.17.1",
     "moment": "^2.24.0",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "uuid": "^7.0.2"
   },
   "devDependencies": {
